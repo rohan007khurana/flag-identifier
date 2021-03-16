@@ -37,14 +37,14 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1 style={{ textDecoration: "underline" }}>Color Intepretor</h1>
+      <h1 style={{ textDecoration: "underline" }}>Color Intepreter</h1>
       <div>
         <input
           onChange={inputColorHandler}
           style={{ padding: "1rem", width: "80%", height: "50px" }}
         ></input>
         <h1>{meaning}</h1>
-        <h3 style={{ fontSize: "larger" }}>Color in the database</h3>
+        <h3 style={{ fontSize: "larger" }}>Colors in the database</h3>
         {colorsWeKnow.map(function (color) {
           return (
             <span
